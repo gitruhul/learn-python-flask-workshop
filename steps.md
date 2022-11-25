@@ -39,16 +39,16 @@
 
 # Run First Sample Flask Application
 
-* In your editor (VS Code), go to flask_apps/app_01_hello/
+* In your editor (VS Code), go to flask_apps/app_00/
 * Click on Hello.py
 * There are two way to run you flask app
 
     * Directly run your python file by clicking the play button
     * OR
-    * Use following command in your terminal (Makure you switch to \flask_apps\app_01_hello)
+    * Use following command in your terminal (Makure you switch to \flask_apps\app_00)
 
         ```
-        flask --app Hello run
+        flask run
         ```
     * You should see something like below
 
