@@ -1,22 +1,56 @@
-# learn-python-flask-workshop
-This repo helps students to learn Flask framework. Make sure you know python basics before trying this workshop.
+# Developing Web Applications with Flask
 
-# Requirements
+**Duration:** 2 days
 
-* Python 3.x with PIP 3
-* Code editor (VSCode or PyCharm)
+## Overview
+
+Flask Training: ***Developing Web Applications with Flask*** course teaches Python developers to create professional web applications with the Flask micro-framework.
+
+## Software Needed on Each Student PC
+
+* Any Windows, Linux, or macOS operating system
+* Python 3.x installed with PIP 3
+* Postman (https://www.postman.com)
+* A text editor or IDE (VS Code or PyCharm Community Edition recommended)
 * Git (Optional)
 
 
-# Try sample application created using Flask
+## Objectives
 
-https://github.com/topics/python-flask-application?l=html
+* Create complete Flask applications
+* Design Jinja templates
+* Integrate a SQLite/MySQL database
+* Test and debug Flask applications
 
-# Docs
+## Outline:
 
-* Visit https://flask.palletsprojects.com/en/2.2.x/ for official documentation
-* In this project, Go to the directory **docs**/ and you can find the Flask related documents.
+### DAY-1 (Basics + Simple Web Applications)
+
+* Introduction to Web Applications (MVC)
+* Virtual Environments
+* Flask Installation (venv)
+* Create First Flask Application
+* Create Routes
+* Testing with Postman
+* Templates
+* Create Sample Flask Apps
+* Database Integration with flask-sqlalchemy
+* Create Sample Flask Apps
+
+### DAY-2 (Create Web Applications + Try Web Apps from GitHub)
+
+* Downloading any Flask App from Github
+* Try to understand the application
+* Try to enhance the application
+
+#### Last Hour: 
+
+* Answering questions from students on Software (IT) career.
+
+## Materials
+
+* Useful documents are available in ***docs/*** for students to learn/practice
 
 
-# Using this repo
+## Using this repo
 This repo or workshop completely created for students who want to learn python Flask. Feel free to share/distribute/modify this contents as you wish.

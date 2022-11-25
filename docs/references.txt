@@ -1,0 +1,7 @@
+# Official documentation
+1. Visit https://flask.palletsprojects.com/en/2.2.x/
+
+
+# Try sample application created using Flask
+2. https://github.com/topics/python-flask-application?l=html
+
