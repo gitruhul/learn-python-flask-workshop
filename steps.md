@@ -55,8 +55,12 @@
         ```
         Running on http://127.0.0.1:5000
         ```
-  * Open browser and enter the above URL. You should see the 'Hello World' response.
+* Open browser and enter the above URL. You should see the 'Hello World' response.
 
+# Learn More Here
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=Z1RJmh_OqeA
+" target="_blank">Youtube - Learn Flask for Python - Full Tutorial</a>
 
 **Happy Coding and All the Best**
 
