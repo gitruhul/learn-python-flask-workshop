@@ -39,13 +39,13 @@
 
 # Run First Sample Flask Application
 
-* In your editor (VS Code), go to flask_apps/app_00/
+* In your editor (VS Code), go to /flask_apps/basic_00/app_00/
 * Click on Hello.py
 * There are two way to run you flask app
 
     * Directly run your python file by clicking the play button
     * OR
-    * Use following command in your terminal (Makure you switch to \flask_apps\app_00)
+    * Use following command in your terminal (Makure you switch to /flask_apps/basic_00/app_00)
 
         ```
         flask run
@@ -60,9 +60,9 @@
 
 # Run Other sample Projects
 
-* Follow the same steps as above to try other projects under the folder flask_apps/
+* Follow the same steps as above to try other projects under the folder flask_apps/basic_00/
 
-**Warning**: You need to stop (press CTRL+c on terminal) currently running application to start another app. OR you can run multiple applications at a time by setting different port number to each one. Refer the app *'flask_apps/app_00_port'*
+**Warning**: You need to stop (press CTRL+c on terminal) currently running application to start another app. OR you can run multiple applications at a time by setting different port number to each one. Refer the app *'flask_apps/basic_00/app_00_port'*
 
 
 # Learn More Here

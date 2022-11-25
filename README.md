@@ -46,6 +46,7 @@ Flask Training: ***Developing Web Applications with Flask*** course teaches Pyth
 * Downloading any Flask App from Github
 * Try to understand the application
 * Try to enhance the application
+* Quick look at Flask App Builder
 
 #### Last Hour: 
 
