@@ -53,7 +53,7 @@ Flask Training: ***Developing Web Applications with Flask*** course teaches Pyth
 
 ## Materials
 
-* Useful documents are available in ***docs/*** for students to learn/practice
+* Useful documents are available in ***docs/material*** for students to learn/practice
 
 
 ## Using this repo
