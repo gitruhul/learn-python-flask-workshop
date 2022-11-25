@@ -57,6 +57,14 @@
         ```
 * Open browser and enter the above URL. You should see the 'Hello World' response.
 
+
+# Run Other sample Projects
+
+* Follow the same steps as above to try other projects under the folder flask_apps/
+
+**Warning**: You need to stop (press CTRL+c on terminal) currently running application to start another app. OR you can run multiple applications at a time by setting different port number to each one. Refer the app *'flask_apps/app_00_port'*
+
+
 # Learn More Here
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Z1RJmh_OqeA
