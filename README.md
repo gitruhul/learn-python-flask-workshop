@@ -55,4 +55,4 @@ Flask Training: ***Developing Web Applications with Flask*** course teaches Pyth
 ## Using this repo
 This repo or workshop completely created for students who want to learn python Flask. Feel free to share/distribute/modify this contents as you wish.
 
- [steps.md](steps.md)
+To start Flask coding click [Coding Steps](steps.md)
