@@ -7,3 +7,8 @@ def hello_world():
 
 if __name__ == '__main__':
     app.run(debug=False)
+
+# To run this from terminal
+# flask --app Hello run
+# OR
+# python Hello.py
