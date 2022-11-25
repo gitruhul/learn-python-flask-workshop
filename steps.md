@@ -28,11 +28,35 @@
         code .
         ```
 
-* Select Virtual Environment in your editor.
+* Select Virtual Environment 'workshopenv' in your editor.
 
+    * This should happen automatically. Better to check it once.
     * You need to select the Virtual Environment 'workshopenv' that got created in above steps.
     * Follow the two steps shown in the screenshot below.
 
-        ![Select Virtual Environment](./docs/select_venv.png)
+        ![Select Virtual Environment](./docs/images/select_venv.png)
 
-    
+# Run First Sample Flask Application
+
+    * In your editor (VS Code), go to flask_apps/app_01_hello/
+    * Click on Hello.py
+    * There are two way to run you flask app
+
+        * Directly run your python file by clicking the play button
+        * OR
+        * Use following command in your terminal (Makure you switch to \flask_apps\app_01_hello)
+
+            ```
+            flask --app Hello run
+            ```
+    * You should see something like below
+
+            ```
+            Running on http://127.0.0.1:5000
+            ```
+    * Open browser and enter the above URL. You should see the 'Hello World' response.
+
+
+<center><p style="font-family:Calibri; font-size:40px;">Happy Coding and All the Best</p>
+
+![Happy Coding](./docs/images/happy_coding.webp)

@@ -1,3 +1,7 @@
+
+![python+flask+vscode](./docs/images/py_flask_vs.png)
+
+
 # Developing Web Applications with Flask
 
 **Duration:** 2 days
