@@ -2,7 +2,8 @@
 
 * Clone or download the repository.
 * Place the repository in a proper location.
-* Open a terminal (CMD) in same location.
+* Extract if you download the repo as a ZIP
+* Open a terminal (CMD) inside the repo (or folder).
 
     * **Note**: Do not close terminal till the last step.
 
@@ -38,25 +39,25 @@
 
 # Run First Sample Flask Application
 
-    * In your editor (VS Code), go to flask_apps/app_01_hello/
-    * Click on Hello.py
-    * There are two way to run you flask app
+* In your editor (VS Code), go to flask_apps/app_01_hello/
+* Click on Hello.py
+* There are two way to run you flask app
 
-        * Directly run your python file by clicking the play button
-        * OR
-        * Use following command in your terminal (Makure you switch to \flask_apps\app_01_hello)
+    * Directly run your python file by clicking the play button
+    * OR
+    * Use following command in your terminal (Makure you switch to \flask_apps\app_01_hello)
 
-            ```
-            flask --app Hello run
-            ```
+        ```
+        flask --app Hello run
+        ```
     * You should see something like below
 
-            ```
-            Running on http://127.0.0.1:5000
-            ```
-    * Open browser and enter the above URL. You should see the 'Hello World' response.
+        ```
+        Running on http://127.0.0.1:5000
+        ```
+  * Open browser and enter the above URL. You should see the 'Hello World' response.
 
 
-<center><p style="font-family:Calibri; font-size:40px;">Happy Coding and All the Best</p>
+**Happy Coding and All the Best**
 
 ![Happy Coding](./docs/images/happy_coding.webp)
