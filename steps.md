@@ -11,7 +11,9 @@
 
     ```bash
     python -m venv workshopenv
+    ```
 
+    ```bash
     workshopenv\scripts\activate
     ```
 
