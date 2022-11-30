@@ -6,9 +6,4 @@ def hello_world():
     return 'Hello World'
 
 if __name__ == '__main__':
-    app.run(debug=False)
-
-# To run this from terminal
-# flask --app Hello run
-# OR
-# python Hello.py
+    app.run(debug=False, port=8080)

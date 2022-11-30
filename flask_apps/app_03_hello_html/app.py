@@ -19,6 +19,7 @@ def hi():
     <h2>This is heading 2</h2>
     <h3>This is heading 3</h3>
     <a href="https://www.w3schools.com">This is a link</a>
+    <p> This is a paragraph!</p>
     """
 
 @app.route('/data/')
@@ -33,4 +34,4 @@ def data():
     }
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=8083)

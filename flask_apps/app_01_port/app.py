@@ -6,4 +6,5 @@ def hello_world():
     return 'Hello World'
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    print(f"Sample APP: Setting the port number")
+    app.run(debug=False, port=8081)
