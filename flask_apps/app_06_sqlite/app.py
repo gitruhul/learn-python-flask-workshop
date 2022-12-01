@@ -23,6 +23,10 @@ def home():
 def new_student():
     return render_template('student.html')
 
+@app.route('/updateold')
+def update_student():
+    return render_template('update.html')
+
 
 @app.route('/addrec', methods=['POST', 'GET'])
 def addrec():
@@ -34,13 +38,13 @@ def addrec():
             pin = request.form['pin']
 
             if nm == "":
-                nm = "null"
+                nm = "dummy"
             if addr == "":
-                addr = "null"
+                addr = "dummy"
             if city == "":
-                city = "null"
+                city = "dummy"
             if pin == "":
-                pin = "null"
+                pin = "000000"
 
             with sql.connect(db_file) as con:
                 cur = con.cursor()
