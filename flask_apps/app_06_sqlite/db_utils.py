@@ -22,4 +22,4 @@ def create_table(conn, table, create_table_sql):
         c.execute(create_table_sql)
         print(f"Table {table} is created.")
     except Exception as e:
-        print(e)
+        print(f"Error while creating table {table}. {e}")

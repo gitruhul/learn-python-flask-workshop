@@ -9,7 +9,7 @@ app = Flask(__name__)
 db_name = "database.db"
 db_file = os.path.join(os.path.realpath(os.path.dirname(__file__)), db_name)
 conn = init_db(db_file=db_file)
-create_sql: str = "CREATE TABLE IF NOT EXISTS students (name,addr,city,pin)"
+create_sql: str = "CREATE TABLE IF NOT EXISTS students (rollno integer primary key autoincrement, name,addr,city,pin)"
 create_table(conn=conn, table='students', create_table_sql=create_sql)
 conn.close()
 

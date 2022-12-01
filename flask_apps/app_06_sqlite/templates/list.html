@@ -42,9 +42,10 @@
 </nav>
 <div class="container">
     <br>
-    <h3>Read From Database</h3>
+    <h3>All Students</h3>
       <table class="table table-striped">
          <thead>
+            <td>Roll Number</td>
             <td>Name</td>
             <td>Address</td>
             <td>city</td>
@@ -54,6 +55,7 @@
 
          {% for row in rows %}
             <tr>
+                <td>{{row["rollno"]}} </td>
                <td>{{row["name"]}} </td>
                <td>{{row["addr"]}}</td>
                <td> {{ row["city"]}}</td>
