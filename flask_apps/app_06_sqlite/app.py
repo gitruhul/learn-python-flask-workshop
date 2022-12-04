@@ -23,6 +23,7 @@ def home():
 def new_student():
     return render_template('student.html')
 
+
 @app.route('/updateold')
 def update_student():
     return render_template('update.html')
@@ -49,7 +50,7 @@ def addrec():
             with sql.connect(db_file) as con:
                 cur = con.cursor()
 
-                cur.execute("INSERT INTO students (name,addr,city,pin) VALUES(?, ?, ?, ?)",(nm,addr,city,pin) )
+                cur.execute("INSERT INTO students (name,addr,city,pin) VALUES(?, ?, ?, ?)", (nm, addr, city, pin))
 
                 con.commit()
                 msg = "Record successfully added"
@@ -62,6 +63,27 @@ def addrec():
             return render_template("result.html", msg=msg)
 
 
+@app.route('/updaterec', methods=['POST', 'GET'])
+def updaterec():
+    if request.method == 'POST':
+        try:
+            update_no = request.form['update_no']
+
+            with sql.connect(db_file) as con:
+                cur = con.cursor()
+
+                cur.execute(f"select * from students where rollno = (?)", update_no)
+                rows = cur.fetchall()
+                print(f"HHHH> {rows}")
+                return render_template("list.html", rows=rows)
+        except Exception as e:
+            con.rollback()
+            msg = f"error in update operation. {e}"
+
+        finally:
+            con.close()
+
+
 @app.route('/list')
 def list():
     con = sql.connect(db_file)
@@ -70,7 +92,8 @@ def list():
     cur = con.cursor()
     cur.execute("select * from students")
 
-    rows = cur.fetchall();
+    rows = cur.fetchall()
+    con.close()
     return render_template("list.html", rows=rows)
 
 
