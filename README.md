@@ -41,6 +41,15 @@ Flask Training: ***Developing Web Applications with Flask*** course teaches Pyth
 * Database Integration with flask-sqlalchemy
 * Create Sample Flask Apps
 
+#### Outcomes
+
+* Understanding purpose of Flask Framework
+* Writing sample projects
+* Testing a Flask Application
+* Debugging a Flask Application
+* A realtime understanding of Web Apps
+* Understanding the pirpose of Micro-Services
+
 ### DAY-2 (Create Web Applications + Try Web Apps from GitHub)
 
 * Downloading any Flask App from Github
@@ -48,7 +57,23 @@ Flask Training: ***Developing Web Applications with Flask*** course teaches Pyth
 * Try to enhance the application
 * Quick look at Flask App Builder
 
+#### Outcomes
+
+* Learnt how to Debug a known open source Flask Application from Github
+* Enhanced an existing open source Flask Application from Github
+
+## Workshop Outcomes
+
+Students by attenting workshop learnt about
+
+* Purpose of Web Apps
+* Writing web apps in Flask
+* Enhance existing Flask Apps
+* Analysing known Flask Apps (From Github)
+
 #### Last Hour: 
+
+A session for 
 
 * Answering questions from students on Software (IT) career.
 
